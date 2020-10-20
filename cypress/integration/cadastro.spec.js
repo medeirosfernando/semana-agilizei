@@ -45,7 +45,6 @@ context('Cadastro', () => {
         // Click
         cy.get('button#submitbtn').click();
 
-
         // Routes
         cy.wait('@postNewTable').then((resNewTable) => {
             // Chai
